@@ -72,7 +72,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3001/api/users/",
+							"raw": "http://localhost:3001/api/users/610195be88ad581fbc401dda",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -81,7 +81,7 @@
 							"path": [
 								"api",
 								"users",
-								""
+								"610195be88ad581fbc401dda"
 							]
 						},
 						"description": "Con esta solicitud podrás obtener un usuario registrado en la base de datos a través de su ID."
@@ -159,7 +159,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"_id\":\"61004c3dfb870b264cc91620\",\r\n    \"email\": \"cr@gmail.com\",\r\n    \"name\": \"cr.\",\r\n    \"estado\": \"false\",\r\n    \"password\": \"password\"\r\n}",
+							"raw": "{\r\n  \r\n    \"email\": \"cr@gmail.com\",\r\n    \"name\": \"cr.\",\r\n    \"estado\": \"false\",\r\n    \"password\": \"password\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -167,7 +167,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3001/api/users/",
+							"raw": "http://localhost:3001/api/users/610195be88ad581fbc401dda",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -176,7 +176,7 @@
 							"path": [
 								"api",
 								"users",
-								""
+								"610195be88ad581fbc401dda"
 							]
 						},
 						"description": "Con esta solicitud podrás actualizar usuario registrado en la base de datos.\nPara esto debes tener autorización por medio de un token de seguridad."
@@ -204,7 +204,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3001/api/users",
+							"raw": "http://localhost:3001/api/authorization",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -212,7 +212,7 @@
 							"port": "3001",
 							"path": [
 								"api",
-								"users"
+								"authorization"
 							]
 						},
 						"description": "Con esta solicitud podrás obtener el token para los permisos solicitados en las otras consultas, debes estar previamente registrado en la base de datos."
